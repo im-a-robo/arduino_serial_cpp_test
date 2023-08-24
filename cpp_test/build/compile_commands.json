@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/serial.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/impl/unix.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/main.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/main.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/main.cpp"
+}
+]
