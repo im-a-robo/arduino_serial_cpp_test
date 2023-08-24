@@ -16,4 +16,4 @@ add_library(serial ${serial_SRCS})
 target_link_libraries(serial rt)
 
 add_executable(cpp_test main.cpp)
-target_link_libraries(cpp_test serial ncurses SDL2)
+target_link_libraries(cpp_test serial)

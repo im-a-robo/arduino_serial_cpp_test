@@ -109,16 +109,6 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "-lncurses",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "-lSDL2",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "-lrt",
 				"role" : "libraries"
 			}
