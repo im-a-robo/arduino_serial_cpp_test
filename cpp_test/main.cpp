@@ -1,8 +1,5 @@
 #include "third-party/include/serial/serial.h"
 #include <iostream>
-#include <ncurses.h>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_gamecontroller.h>
 #include "thread"
 
 int main()
