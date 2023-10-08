@@ -1,0 +1,36 @@
+// #include "third-party/include/serial/serial.h"
+// #include <iostream>
+// #include "thread"
+
+// int main() {
+
+
+
+
+    
+    // serial::Serial my_serial("/dev/ttyACM0", 9600, serial::Timeout::simpleTimeout(3000));
+
+    // if (my_serial.isOpen())
+    // {
+    //     std::cout << "Port opened succesfully" << std::endl;
+    // }
+    // else
+    // {
+    //     std::cout << "Port failed to open" << std::endl;
+    // }
+    // my_serial.flushOutput();
+
+    // std::string data = "";
+
+    // bool isRunning = true;
+
+    // while(isRunning) {
+
+    //         data = std::cin.get();
+
+    //         my_serial.write(data);
+
+    //         my_serial.flushOutput();
+
+    // }
+// }

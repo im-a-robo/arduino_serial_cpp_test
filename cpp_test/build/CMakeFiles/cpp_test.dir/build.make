@@ -83,18 +83,179 @@ CMakeFiles/cpp_test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/main.cpp -o CMakeFiles/cpp_test.dir/main.cpp.s
 
+CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o: ../third-party/src/serial.cc
+CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o -MF CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o.d -o CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc
+
+CMakeFiles/cpp_test.dir/third-party/src/serial.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/serial.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc > CMakeFiles/cpp_test.dir/third-party/src/serial.cc.i
+
+CMakeFiles/cpp_test.dir/third-party/src/serial.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/serial.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc -o CMakeFiles/cpp_test.dir/third-party/src/serial.cc.s
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o: ../third-party/src/impl/list_ports/list_ports_linux.cc
+CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o -MF CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o.d -o CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc > CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.i
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc -o CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.s
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o: ../third-party/src/impl/unix.cc
+CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o -MF CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o.d -o CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc > CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.i
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc -o CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.s
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o: ../third-party/src/imgui.cpp
+CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o -MF CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o.d -o CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui.cpp
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui.cpp > CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.i
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui.cpp -o CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.s
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o: ../third-party/src/imgui_demo.cpp
+CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o -MF CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o.d -o CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_demo.cpp
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_demo.cpp > CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.i
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_demo.cpp -o CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.s
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o: ../third-party/src/imgui_draw.cpp
+CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o -MF CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o.d -o CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_draw.cpp
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_draw.cpp > CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.i
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_draw.cpp -o CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.s
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o: ../third-party/src/imgui_widgets.cpp
+CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o -MF CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o.d -o CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_widgets.cpp
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_widgets.cpp > CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.i
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_widgets.cpp -o CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.s
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o: ../third-party/src/imgui_tables.cpp
+CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o -MF CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o.d -o CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_tables.cpp
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_tables.cpp > CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.i
+
+CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_tables.cpp -o CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.s
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o: ../third-party/src/impl/imgui_impl_opengl3.cpp
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o -MF CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_opengl3.cpp
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_opengl3.cpp > CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_opengl3.cpp -o CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o: CMakeFiles/cpp_test.dir/flags.make
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o: ../third-party/src/impl/imgui_impl_glfw.cpp
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o: CMakeFiles/cpp_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o -MF CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o.d -o CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_glfw.cpp
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_glfw.cpp > CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.i
+
+CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_glfw.cpp -o CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.s
+
 # Object files for target cpp_test
 cpp_test_OBJECTS = \
-"CMakeFiles/cpp_test.dir/main.cpp.o"
+"CMakeFiles/cpp_test.dir/main.cpp.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o"
 
 # External object files for target cpp_test
 cpp_test_EXTERNAL_OBJECTS =
 
 cpp_test: CMakeFiles/cpp_test.dir/main.cpp.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o
+cpp_test: CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o
 cpp_test: CMakeFiles/cpp_test.dir/build.make
 cpp_test: libserial.a
+cpp_test: libimgui.a
 cpp_test: CMakeFiles/cpp_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/dev/arduino_serial_cpp_test/cpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable cpp_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,22 +1,107 @@
 [
 {
   "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
-  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/serial.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/serial.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc",
   "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc"
 },
 {
   "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
-  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc",
   "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc"
 },
 {
   "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
-  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/impl/unix.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/serial.dir/third-party/src/impl/unix.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc",
   "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc"
 },
 {
   "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
-  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/main.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/main.cpp",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/imgui.dir/third-party/src/imgui.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/imgui.dir/third-party/src/imgui_demo.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_demo.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_demo.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/imgui.dir/third-party/src/imgui_draw.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_draw.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_draw.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/imgui.dir/third-party/src/imgui_widgets.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_widgets.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/imgui.dir/third-party/src/imgui_tables.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_tables.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_tables.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/imgui.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_opengl3.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -g -std=gnu++11 -o CMakeFiles/imgui.dir/third-party/src/impl/imgui_impl_glfw.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_glfw.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/main.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/main.cpp",
   "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/main.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/serial.cc"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/list_ports/list_ports_linux.cc"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/unix.cc"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_demo.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_demo.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_draw.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_draw.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_widgets.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_tables.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/imgui_tables.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_opengl3.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/build",
+  "command": "/usr/bin/g++  -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/serial -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/backends -g -std=gnu++11 -o CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o -c /home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_glfw.cpp",
+  "file": "/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/src/impl/imgui_impl_glfw.cpp"
 }
 ]

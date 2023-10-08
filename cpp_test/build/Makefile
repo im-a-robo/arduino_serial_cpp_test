@@ -150,6 +150,19 @@ serial/fast:
 .PHONY : serial/fast
 
 #=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+#=============================================================================
 # Target rules for targets named cpp_test
 
 # Build rule for target.
@@ -186,12 +199,202 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+third-party/src/imgui.o: third-party/src/imgui.cpp.o
+.PHONY : third-party/src/imgui.o
+
+# target to build an object file
+third-party/src/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.o
+.PHONY : third-party/src/imgui.cpp.o
+
+third-party/src/imgui.i: third-party/src/imgui.cpp.i
+.PHONY : third-party/src/imgui.i
+
+# target to preprocess a source file
+third-party/src/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.i
+.PHONY : third-party/src/imgui.cpp.i
+
+third-party/src/imgui.s: third-party/src/imgui.cpp.s
+.PHONY : third-party/src/imgui.s
+
+# target to generate assembly for a file
+third-party/src/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui.cpp.s
+.PHONY : third-party/src/imgui.cpp.s
+
+third-party/src/imgui_demo.o: third-party/src/imgui_demo.cpp.o
+.PHONY : third-party/src/imgui_demo.o
+
+# target to build an object file
+third-party/src/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.o
+.PHONY : third-party/src/imgui_demo.cpp.o
+
+third-party/src/imgui_demo.i: third-party/src/imgui_demo.cpp.i
+.PHONY : third-party/src/imgui_demo.i
+
+# target to preprocess a source file
+third-party/src/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.i
+.PHONY : third-party/src/imgui_demo.cpp.i
+
+third-party/src/imgui_demo.s: third-party/src/imgui_demo.cpp.s
+.PHONY : third-party/src/imgui_demo.s
+
+# target to generate assembly for a file
+third-party/src/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_demo.cpp.s
+.PHONY : third-party/src/imgui_demo.cpp.s
+
+third-party/src/imgui_draw.o: third-party/src/imgui_draw.cpp.o
+.PHONY : third-party/src/imgui_draw.o
+
+# target to build an object file
+third-party/src/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.o
+.PHONY : third-party/src/imgui_draw.cpp.o
+
+third-party/src/imgui_draw.i: third-party/src/imgui_draw.cpp.i
+.PHONY : third-party/src/imgui_draw.i
+
+# target to preprocess a source file
+third-party/src/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.i
+.PHONY : third-party/src/imgui_draw.cpp.i
+
+third-party/src/imgui_draw.s: third-party/src/imgui_draw.cpp.s
+.PHONY : third-party/src/imgui_draw.s
+
+# target to generate assembly for a file
+third-party/src/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_draw.cpp.s
+.PHONY : third-party/src/imgui_draw.cpp.s
+
+third-party/src/imgui_tables.o: third-party/src/imgui_tables.cpp.o
+.PHONY : third-party/src/imgui_tables.o
+
+# target to build an object file
+third-party/src/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_tables.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.o
+.PHONY : third-party/src/imgui_tables.cpp.o
+
+third-party/src/imgui_tables.i: third-party/src/imgui_tables.cpp.i
+.PHONY : third-party/src/imgui_tables.i
+
+# target to preprocess a source file
+third-party/src/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_tables.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.i
+.PHONY : third-party/src/imgui_tables.cpp.i
+
+third-party/src/imgui_tables.s: third-party/src/imgui_tables.cpp.s
+.PHONY : third-party/src/imgui_tables.s
+
+# target to generate assembly for a file
+third-party/src/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_tables.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_tables.cpp.s
+.PHONY : third-party/src/imgui_tables.cpp.s
+
+third-party/src/imgui_widgets.o: third-party/src/imgui_widgets.cpp.o
+.PHONY : third-party/src/imgui_widgets.o
+
+# target to build an object file
+third-party/src/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.o
+.PHONY : third-party/src/imgui_widgets.cpp.o
+
+third-party/src/imgui_widgets.i: third-party/src/imgui_widgets.cpp.i
+.PHONY : third-party/src/imgui_widgets.i
+
+# target to preprocess a source file
+third-party/src/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.i
+.PHONY : third-party/src/imgui_widgets.cpp.i
+
+third-party/src/imgui_widgets.s: third-party/src/imgui_widgets.cpp.s
+.PHONY : third-party/src/imgui_widgets.s
+
+# target to generate assembly for a file
+third-party/src/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/imgui_widgets.cpp.s
+.PHONY : third-party/src/imgui_widgets.cpp.s
+
+third-party/src/impl/imgui_impl_glfw.o: third-party/src/impl/imgui_impl_glfw.cpp.o
+.PHONY : third-party/src/impl/imgui_impl_glfw.o
+
+# target to build an object file
+third-party/src/impl/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/impl/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.o
+.PHONY : third-party/src/impl/imgui_impl_glfw.cpp.o
+
+third-party/src/impl/imgui_impl_glfw.i: third-party/src/impl/imgui_impl_glfw.cpp.i
+.PHONY : third-party/src/impl/imgui_impl_glfw.i
+
+# target to preprocess a source file
+third-party/src/impl/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/impl/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.i
+.PHONY : third-party/src/impl/imgui_impl_glfw.cpp.i
+
+third-party/src/impl/imgui_impl_glfw.s: third-party/src/impl/imgui_impl_glfw.cpp.s
+.PHONY : third-party/src/impl/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+third-party/src/impl/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/impl/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_glfw.cpp.s
+.PHONY : third-party/src/impl/imgui_impl_glfw.cpp.s
+
+third-party/src/impl/imgui_impl_opengl3.o: third-party/src/impl/imgui_impl_opengl3.cpp.o
+.PHONY : third-party/src/impl/imgui_impl_opengl3.o
+
+# target to build an object file
+third-party/src/impl/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.o
+.PHONY : third-party/src/impl/imgui_impl_opengl3.cpp.o
+
+third-party/src/impl/imgui_impl_opengl3.i: third-party/src/impl/imgui_impl_opengl3.cpp.i
+.PHONY : third-party/src/impl/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+third-party/src/impl/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/impl/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.i
+.PHONY : third-party/src/impl/imgui_impl_opengl3.cpp.i
+
+third-party/src/impl/imgui_impl_opengl3.s: third-party/src/impl/imgui_impl_opengl3.cpp.s
+.PHONY : third-party/src/impl/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+third-party/src/impl/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/third-party/src/impl/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/imgui_impl_opengl3.cpp.s
+.PHONY : third-party/src/impl/imgui_impl_opengl3.cpp.s
+
 third-party/src/impl/list_ports/list_ports_linux.o: third-party/src/impl/list_ports/list_ports_linux.cc.o
 .PHONY : third-party/src/impl/list_ports/list_ports_linux.o
 
 # target to build an object file
 third-party/src/impl/list_ports/list_ports_linux.cc.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.o
 .PHONY : third-party/src/impl/list_ports/list_ports_linux.cc.o
 
 third-party/src/impl/list_ports/list_ports_linux.i: third-party/src/impl/list_ports/list_ports_linux.cc.i
@@ -200,6 +403,7 @@ third-party/src/impl/list_ports/list_ports_linux.i: third-party/src/impl/list_po
 # target to preprocess a source file
 third-party/src/impl/list_ports/list_ports_linux.cc.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/impl/list_ports/list_ports_linux.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.i
 .PHONY : third-party/src/impl/list_ports/list_ports_linux.cc.i
 
 third-party/src/impl/list_ports/list_ports_linux.s: third-party/src/impl/list_ports/list_ports_linux.cc.s
@@ -208,6 +412,7 @@ third-party/src/impl/list_ports/list_ports_linux.s: third-party/src/impl/list_po
 # target to generate assembly for a file
 third-party/src/impl/list_ports/list_ports_linux.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/impl/list_ports/list_ports_linux.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/list_ports/list_ports_linux.cc.s
 .PHONY : third-party/src/impl/list_ports/list_ports_linux.cc.s
 
 third-party/src/impl/unix.o: third-party/src/impl/unix.cc.o
@@ -216,6 +421,7 @@ third-party/src/impl/unix.o: third-party/src/impl/unix.cc.o
 # target to build an object file
 third-party/src/impl/unix.cc.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/impl/unix.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.o
 .PHONY : third-party/src/impl/unix.cc.o
 
 third-party/src/impl/unix.i: third-party/src/impl/unix.cc.i
@@ -224,6 +430,7 @@ third-party/src/impl/unix.i: third-party/src/impl/unix.cc.i
 # target to preprocess a source file
 third-party/src/impl/unix.cc.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/impl/unix.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.i
 .PHONY : third-party/src/impl/unix.cc.i
 
 third-party/src/impl/unix.s: third-party/src/impl/unix.cc.s
@@ -232,6 +439,7 @@ third-party/src/impl/unix.s: third-party/src/impl/unix.cc.s
 # target to generate assembly for a file
 third-party/src/impl/unix.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/impl/unix.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/impl/unix.cc.s
 .PHONY : third-party/src/impl/unix.cc.s
 
 third-party/src/serial.o: third-party/src/serial.cc.o
@@ -240,6 +448,7 @@ third-party/src/serial.o: third-party/src/serial.cc.o
 # target to build an object file
 third-party/src/serial.cc.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/serial.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/serial.cc.o
 .PHONY : third-party/src/serial.cc.o
 
 third-party/src/serial.i: third-party/src/serial.cc.i
@@ -248,6 +457,7 @@ third-party/src/serial.i: third-party/src/serial.cc.i
 # target to preprocess a source file
 third-party/src/serial.cc.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/serial.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/serial.cc.i
 .PHONY : third-party/src/serial.cc.i
 
 third-party/src/serial.s: third-party/src/serial.cc.s
@@ -256,6 +466,7 @@ third-party/src/serial.s: third-party/src/serial.cc.s
 # target to generate assembly for a file
 third-party/src/serial.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/third-party/src/serial.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/third-party/src/serial.cc.s
 .PHONY : third-party/src/serial.cc.s
 
 # Help Target
@@ -269,10 +480,32 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... cpp_test"
+	@echo "... imgui"
 	@echo "... serial"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... third-party/src/imgui.o"
+	@echo "... third-party/src/imgui.i"
+	@echo "... third-party/src/imgui.s"
+	@echo "... third-party/src/imgui_demo.o"
+	@echo "... third-party/src/imgui_demo.i"
+	@echo "... third-party/src/imgui_demo.s"
+	@echo "... third-party/src/imgui_draw.o"
+	@echo "... third-party/src/imgui_draw.i"
+	@echo "... third-party/src/imgui_draw.s"
+	@echo "... third-party/src/imgui_tables.o"
+	@echo "... third-party/src/imgui_tables.i"
+	@echo "... third-party/src/imgui_tables.s"
+	@echo "... third-party/src/imgui_widgets.o"
+	@echo "... third-party/src/imgui_widgets.i"
+	@echo "... third-party/src/imgui_widgets.s"
+	@echo "... third-party/src/impl/imgui_impl_glfw.o"
+	@echo "... third-party/src/impl/imgui_impl_glfw.i"
+	@echo "... third-party/src/impl/imgui_impl_glfw.s"
+	@echo "... third-party/src/impl/imgui_impl_opengl3.o"
+	@echo "... third-party/src/impl/imgui_impl_opengl3.i"
+	@echo "... third-party/src/impl/imgui_impl_opengl3.s"
 	@echo "... third-party/src/impl/list_ports/list_ports_linux.o"
 	@echo "... third-party/src/impl/list_ports/list_ports_linux.i"
 	@echo "... third-party/src/impl/list_ports/list_ports_linux.s"

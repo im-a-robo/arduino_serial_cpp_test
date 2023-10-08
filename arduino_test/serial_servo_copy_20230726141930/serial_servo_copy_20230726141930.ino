@@ -23,29 +23,46 @@
 String inputString = "";      // a String to hold incoming data
 bool stringComplete = false;  // whether the string is complete
 
-Servo myservo;
-int pos = 0;
+Servo basePlate;
+Servo bottomArm;
+Servo topArm;
 String dataIn = "";
+String arrData = "";
 char c;
+int posIndex;
+int poses[3] = {90, 90, 90};
 
 void setup() {
   // initialize serial:
   Serial.begin(9600);
   // reserve 200 bytes for the inputString:
   inputString.reserve(200);
-  myservo.attach(9);
+  basePlate.attach(8);
+  bottomArm.attach(10);
+  topArm.attach(12);
 }
 
 void loop() {
   get_serial_data();
 
   if (c == '\n') {
-    pos = dataIn.toInt();
+    for(int i = 0; i <= dataIn.length(); i++) {
+      if(dataIn[i] != ' ' && i != dataIn.length()) {
+        arrData += dataIn[i];
+      } else {
+        poses[posIndex] = arrData.toInt();
+        posIndex++;
+        arrData = ""; 
+      }
+    }
+    posIndex = 0;
     c = 0;
     dataIn = "";
   }
 
-  myservo.write(pos);
+  basePlate.write(poses[0]);
+  bottomArm.write(poses[1]);
+  topArm.write(poses[2]);
 
 
 }
@@ -55,7 +72,6 @@ void get_serial_data() {
   while(Serial.available() > 0) {
 
     c = Serial.read();
-    // Serial.println(c);
 
     if (c == '\n') {
       break;

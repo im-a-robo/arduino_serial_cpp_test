@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include
+CXX_INCLUDES = -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/build -I/home/nick/dev/arduino_serial_cpp_test/cpp_test -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui -I/home/nick/dev/arduino_serial_cpp_test/cpp_test/third-party/include/imgui/impl
 
 CXX_FLAGS = -g -std=gnu++11
 
